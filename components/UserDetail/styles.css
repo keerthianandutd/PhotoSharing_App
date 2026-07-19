@@ -1,0 +1,66 @@
+/* userDetail.css */
+
+.user-detail {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+}
+
+.user-name {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.user-info {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.user-info strong {
+  font-weight: bold;
+}
+
+.MuiDivider-root {
+  margin: 20px 0;
+  background-color: #fff;
+}
+
+.view-photos-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.view-photos-link:hover {
+  background-color: #0056b3;
+}
+
+.delete-button {
+  display: inline-block;
+  margin-top: 20px !important;
+  padding: 10px 20px;
+  background-color: #dc3545; /* Red color */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #c82333; /* Darker red for hover */
+}

@@ -1,0 +1,57 @@
+/* userList.css */
+
+.user-list {
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 0 auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-list .user-list-heading {
+  font-size: 18px !important; 
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.user-list .MuiTypography-root {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.user-list .MuiListItem-root {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 12px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.user-list .MuiListItem-root:hover {
+  background-color: #f0f0f0;
+}
+
+.user-list .MuiListItemText-root {
+  font-size: 16px;
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+.user-list .MuiBadge-dot.MuiBadge-colorError:hover {
+  background-color: #f321095d;
+}
+
+.user-list a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.user-list .MuiDivider-root {
+  margin: 8px 0;
+}

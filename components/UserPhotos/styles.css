@@ -1,0 +1,77 @@
+.user-photos {
+  margin: 20px;
+}
+
+.photos-title {
+  margin-bottom: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.photo-card {
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.photo-date {
+  margin-bottom: 10px;
+}
+
+.photo-image {
+  width: 100%;
+  max-width: 400px; 
+  height: auto; 
+  object-fit: cover; 
+  border-radius: 8px; 
+  box-shadow: 10px 10px 5px rgb(54, 54, 54);
+}
+
+.comments-section {
+  margin-top: 10px;
+}
+
+.comment {
+  margin-top: 10px;
+}
+
+.comment-author {
+  font-weight: bold;
+  text-decoration: none;
+  color: #1976d2;
+}
+
+.comment-author:hover {
+  text-decoration: underline;
+}
+
+.comment-text {
+  margin-left: 10px;
+}
+
+.stepper-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.stepper-controls button {
+  background-color: #1976d2;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.stepper-controls button:hover {
+  background-color: #145a9d;
+}
+
+.stepper-controls button:disabled {
+  background-color: #ccc;
+  color: #777;
+  cursor: not-allowed;
+}
