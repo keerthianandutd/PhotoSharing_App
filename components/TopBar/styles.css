@@ -1,0 +1,81 @@
+/*
+.topbar-appBar{
+  height: 60;
+  justify-content: "center";
+}
+*/
+
+.topbar-appBar {
+  background:  linear-gradient(135deg, #4A90E2, #660bb6);
+  color: white;
+  box-shadow: none;
+}
+
+.topbar-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topbar-name {
+  font-weight: bold;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+}
+
+.topbar-version {
+  font-size: 1rem;
+  font-weight: lighter;
+  text-align: right;
+}
+
+.custom-checkbox {
+  margin-right: 10px;
+}
+
+.topbar-context {
+  font-size: 1.25rem;
+  font-weight: normal;
+  text-align: right;
+}
+
+.custom-checkbox .MuiSvgIcon-root {
+  color: #ffffff;
+}
+
+.upload-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 400px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  outline: none;
+}
+
+.upload-modal input[type="file"] {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+.upload-modal button {
+  margin-right: 10px;
+}
+
+.upload-modal button:last-child {
+  margin-right: 0;
+}
+
+.upload-modal .MuiTypography-root {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #4A90E2;
+}
