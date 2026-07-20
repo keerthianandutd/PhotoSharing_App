@@ -69,5 +69,5 @@ Key files: [`webServer.js`](./webServer.js) (Express server), [`photoShare.jsx`]
    ```
 6. Open the app in your browser at [http://localhost:3000/photo-share.html](http://localhost:3000/photo-share.html)
 
-## License
-No license specified.
+
+
